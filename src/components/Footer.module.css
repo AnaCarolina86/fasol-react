@@ -1,0 +1,21 @@
+footer{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.logoFooter{
+    width: 8%;
+}
+
+.icon{
+    text-decoration: none;
+    margin: .5rem;
+    color: #1c577c;
+}
+
+.icon:hover{
+    color: rgb(234, 225, 135);
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.home{
+    margin: 0;    
+    padding: 0;
+    margin-top: -4.2rem;
+    height: 30rem;
+    border-left: solid 4rem rgb(234, 225, 135); ;
+    border-right: solid 4rem rgb(234, 225, 135);
+    background-color: rgb(234, 225, 135);
+    background-image: url("/images/evolucao-biquini.png");
+    background-size: 100%; 
+    background-repeat: no-repeat;     
+}
+
+.titles{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 15rem;
+    color: #fff;
+    -webkit-text-stroke: 2.5px #1c577c;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    font-size: 3.5em;
+}
