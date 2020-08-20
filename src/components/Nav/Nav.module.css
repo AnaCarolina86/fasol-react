@@ -1,0 +1,88 @@
+.nav{
+    position: fixed;   
+    background: orangered;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center; 
+    padding: 0;  
+    margin: 0;
+    margin-top: 2.5em;
+    margin-left: 1em;    
+}
+
+.navLink{
+    color: inherit;
+    text-decoration: none;
+}
+
+.navLink:hover{ color: blue; }
+
+.navToggle{
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+    left: 0;
+}
+
+.navOpen .nav{ transform: translateX(0%); }
+
+.navOpen .navToggle{ position: fixed; }
+
+.navOpen .hamburger{ transform: rotate(.625turn);}
+
+.navOpen .hamburger::before{
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.navOpen .hamburger::after{ opacity: 0; }
+
+.hamburger{
+    display: block;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after{
+    background: blue;
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.hamburger::before{ top: 6px;}
+.hamburger::after{ bottom: 6px;}
+
+@media(max-width: 900px){
+    .buttons-header{
+        display: none;
+    }
+}

@@ -4,7 +4,7 @@ function History(){
     return (
         <section>
             <div>
-                <img src=""></img>
+                <img src="./images/fatima.jpeg" alt="fátima soalheiro"></img>
             </div>
             <article>
                 <h2>A Nossa História</h2>
