@@ -1,9 +1,11 @@
 import React from "react";
 import PersonalizadoForm from "../PersonnalizadoForm/PersonalizadoForm";
+import Footer from "../Footer/Footer";
 
 function Personalizado(){
     return (
-        <section>
+        <div>
+            <section>
             <div>
                 <h2>Somos diversos! O nosso corpo e gosto é único!</h2>
                 <h2>É pensando nisso que personalizamos a moda praia do seu jeito, com suas medidas, com o modelo que deseja, cor e estampa. 
@@ -23,7 +25,10 @@ function Personalizado(){
                 <h3>HOMEM - COMO TIRAR SUAS MEDIDAS</h3>
                 <img src="./images/tabela-medidas-masculino.png" alt="able that shows how to take masculine body mesuares roupa de banho" />
             </section>
-        </section>
+            </section>
+            <Footer />
+        </div>
+        
     );
 }
 

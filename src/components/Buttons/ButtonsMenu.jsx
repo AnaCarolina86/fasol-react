@@ -1,27 +1,28 @@
 import React from "react";
 import styles from "./ButtonsMenu.module.css";
+import {Link} from "react-router-dom";
 
 function ButtonsMenu(){
     return (
         <section className={styles} >
             <ul>
                 <li>
-                    <button className={styles.btn}>Página Inicial</button>
+                    <Link to="/"><button className={styles.btn}>Página Inicial</button></Link>
                 </li>
                 <li>
-                    <button className={styles.btn}>Nossa História</button>
+                    <Link to="history"><button className={styles.btn}>Nossa História</button></Link> 
                 </li>
                 <li>
-                    <button className={styles.btn}>Moda Praia</button>
+                    <Link to="bikini"><button className={styles.btn}>Moda Praia</button></Link>
                 </li>
                 <li>
-                    <button className={styles.btn}>Personalizado</button>
+                    <Link to="personalizado"> <button className={styles.btn}>Personalizado</button></Link>
                 </li>
                 <li>
-                    <button className={styles.btn}>Blog</button>
+                    <Link to="blog"><button className={styles.btn}>Blog</button></Link>
                 </li>
                 <li>
-                    <button className={styles.btn}>Contato</button>
+                    <Link to="contact"><button className={styles.btn}>Contato</button></Link>
                 </li>
             </ul>
         </section>

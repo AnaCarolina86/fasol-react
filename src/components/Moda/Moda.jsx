@@ -1,9 +1,11 @@
 import React from "react";
 import ModaItem from "../ModaItem/ModaItem";
+import Footer from "../Footer/Footer";
 
 function Moda(){
     return (
-        <section>
+        <div>
+            <section>
             <h1>Moda Praia</h1>
             <ModaItem />
             <div>
@@ -14,7 +16,10 @@ function Moda(){
                     Entre em contato com a gente, clique <span><a href="/">aqui</a></span>.
                 </h3>
             </div>
-        </section>
+            </section>
+            <Footer />
+        </div>
+        
     );
 }
 

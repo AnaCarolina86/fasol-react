@@ -1,7 +1,9 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 
 function Contact(){
     return (
+        <div>
         <section>
             <h1>Contato</h1>
 
@@ -41,7 +43,10 @@ function Contact(){
                 <a href="https://www.instagram.com/fasol_modapraia/"><i class="fab fa-instagram"></i> Instagram</a><br />
                     <a class="" href="https://www.facebook.com/FaSoalheiro/"><i class="fab fa-facebook"></i> Facebook</a>
             </div>
+            
         </section>
+        <Footer />
+        </div>
     );
 }
 
