@@ -43,8 +43,6 @@
     left: 0;
 }
 
-.navOpen .nav{ transform: translateX(0%); }
-
 .navOpen .navToggle{ position: fixed; }
 
 .navOpen .hamburger{ transform: rotate(.625turn);}
