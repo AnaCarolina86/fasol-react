@@ -6,6 +6,9 @@ It is a React version of the project fasol.
 It is still in progress.
 
 
+Deployed here: [fasol](https://fasol-modapraia.netlify.app/#/).
+
+
 
 
 
