@@ -9,6 +9,8 @@ import Contact from './components/Contact/Contact';
 import History from './components/History/History';
 import Moda from './components/Moda/Moda';
 import Personalizado from './components/Personalizado/Personalizado';
+import Admin from './components/Admin/Admin';
+import Login from './components/Login/Login';
 
 import './index.css';
 
@@ -18,6 +20,8 @@ ReactDOM.render(
    <App />
    <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/admin" component={Admin} />
+      <Route exact path="/login" component={Login} />
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/history" component={History} />
