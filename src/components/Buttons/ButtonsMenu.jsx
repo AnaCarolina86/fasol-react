@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 function ButtonsMenu(){
     return (
-        <section className={styles} >
+        <section className={styles}>
             <ul>
                 <li>
                     <Link to="/"><button className={styles.btn}>Página Inicial</button></Link>
@@ -16,7 +16,7 @@ function ButtonsMenu(){
                     <Link to="bikini"><button className={styles.btn}>Moda Praia</button></Link>
                 </li>
                 <li>
-                    <Link to="personalizado"> <button className={styles.btn}>Personalizado</button></Link>
+                    <Link to="personalizado"><button className={styles.btn}>Personalizado</button></Link>
                 </li>
                 <li>
                     <Link to="blog"><button className={styles.btn}>Blog</button></Link>
