@@ -8,7 +8,7 @@ function Footer(){
             <p>FaSol Moda Praia. 2020</p>
 
             <div className={styles.icons}>
-                <ul>
+                <ul className={styles.iconList}>
                     <li>
                         <a className={styles.icon} href="https://www.instagram.com/fasol_modapraia/">
                             <i className= "fab fa-instagram fa-2x" ></i>

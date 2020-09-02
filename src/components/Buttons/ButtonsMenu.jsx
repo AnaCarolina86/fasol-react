@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function ButtonsMenu(){
     return (
         <section className={styles}>
-            <ul>
+            <ul className={styles.listBtn}>
                 <li>
                     <Link to="/"><button className={styles.btn}>Página Inicial</button></Link>
                 </li>

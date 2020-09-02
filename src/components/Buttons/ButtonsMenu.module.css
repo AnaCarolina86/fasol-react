@@ -1,4 +1,4 @@
-li{
+.listBtn li {
     list-style: none;
     display: inline;
 }

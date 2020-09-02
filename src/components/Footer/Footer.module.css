@@ -3,6 +3,7 @@ footer{
     padding-bottom: 1rem;
     background-color: #fff;
     text-align: center;
+    background-color: rgb(241, 225, 159);;
 }
 
 .logoFooter{
@@ -16,6 +17,13 @@ footer{
 }
 
 .icon:hover{
-    color: rgb(234, 225, 135);
+    color: #f3b62c;
     cursor: pointer;
 }
+
+.iconList li{
+    text-decoration: none;
+    display: inline;
+}
+
+ul{ padding-left: 0; }
