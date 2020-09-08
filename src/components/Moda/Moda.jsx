@@ -2,10 +2,12 @@ import React from "react";
 import ModaItem from "../ModaItem/ModaItem";
 import Footer from "../Footer/Footer";
 
+import styles from "./Moda.module.css";
+
 function Moda(){
     return (
         <div>
-            <section>
+            <section className={styles.modaSection}>
             <h1>Moda Praia</h1>
             <ModaItem />
             <div>

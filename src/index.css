@@ -17,15 +17,10 @@ body {
   color: rgb(28, 87, 124);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 section{ padding-bottom: 2rem; }
 
 /* Typography */
-h1, h2, h3{
+h1, h2, h3, h4{
   line-height: 1;
   margin: 0;
 }

@@ -29,3 +29,9 @@
 ul li::before {
     content: "\200B";
 }
+
+@media(max-width: 1300px){
+    .listBtn{
+        display: none;
+    }
+}

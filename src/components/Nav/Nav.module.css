@@ -2,6 +2,7 @@
     position: fixed;   
     background: orangered;
     color: #fff;
+    font-size: 3.5rem;
     top: 0;
     bottom: 0;
     left: 0;
@@ -29,7 +30,7 @@
     text-decoration: none;
 }
 
-.navLink:hover{ color: blue; }
+.navLink:hover{ color: rgb(28, 87, 124); }
 
 .navToggle{
     padding: .5em;
@@ -61,7 +62,7 @@
 .hamburger,
 .hamburger::before,
 .hamburger::after{
-    background: blue;
+    background: rgb(28, 87, 124);;
     width: 2em;
     height: 3px;
     border-radius: 1em;

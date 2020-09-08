@@ -9,8 +9,8 @@ function Home(){
             <section className={styles.home}>
                 
                 <div className={styles.titles}>
-                    <h1>FaSol Moda Praia</h1>
-                    <h2>A Evolução da Moda</h2>
+                    <h1 className={styles.title}>FaSol Moda Praia</h1>
+                    <h2 className={styles.subtitle}>A Evolução da Moda</h2>
                 </div>
                 
             </section>
