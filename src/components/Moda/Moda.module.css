@@ -1,0 +1,24 @@
+.modaSection{
+    background-color: #fff;
+    margin: 0;    
+    padding: 0;
+    margin-top: -3rem;
+}
+
+.modaTitle{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: 4.5rem;
+}
+
+.containerModa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modaTip{
+    padding: 2.5em;
+}
