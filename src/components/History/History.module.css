@@ -1,0 +1,52 @@
+.historySection{
+    background-color: #fff;
+    margin: 0rem;    
+    padding: 0;
+    margin-top: -3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.mainSection{
+    padding: 2rem;
+    margin: 3rem;
+    border: 0.4rem solid rgb(28, 87, 124);
+    outline: 0.4rem solid  #f3b62c;
+    outline-offset: 0.75rem;
+}
+
+.titleSection{
+    text-align: center;
+    font-size: 3.75em;
+    padding: 2rem;
+    margin-bottom: 1.75rem;
+}
+
+.contentHistorySection{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.imageDivHistorySection{
+    position: relative;
+    justify-self: center;
+}
+
+.imageHistorySection{
+    width: 100%;
+}
+
+.labelHistorySection{
+    text-align: center;
+    font-size: 2em;
+}
+
+.textHistorySection h2{
+    font-size: 2.76em;
+    text-align: justify;
+    width: 70rem;
+    padding-bottom: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    word-break: keep-all;
+}
