@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.personSection{
+    background-color: #fff;
+    color: #1c577c;
+    padding: 0;
+    
+}
+
+.titlesPerson{
+    text-align: center;
+    margin: -3em auto 2em auto;
+    
+}
+
+.diverseTitlePerson{
+    background-color: rgb(147, 189, 209);
+    font-family: 'Nothing You Could Do', cursive;
+    color: #fff;
+    font-size: 2.75rem;
+    padding: 2em;
+}
+
+.subtitlePerson{
+    max-width: 42em;
+    text-align: left;
+    font-size: 2rem;
+    padding: 2em;
+    margin: 0 auto 0 auto;
+}
+
+.titleFormPerson{
+    background-color: #1c577c;
+    color: #fff;
+    font-size: 2.75rem;
+    text-align: center;
+    padding: .5em;
+    margin-bottom: 2em;
+}
+
+.titleHowPerson{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2em auto 2em auto;
+}
+
+.imagesHowPerson{
+    margin: 1em auto 1em auto;
+    max-width: 60em;
+}
+
+.imageHowPerson{
+    position: relative;
+    width: 65%;
+    margin: 0 auto 0 auto;
+}
