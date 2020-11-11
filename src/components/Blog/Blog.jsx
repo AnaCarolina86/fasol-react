@@ -4,17 +4,18 @@ import paragraphsBlog from "./textBlog";
 
 import styles from "./Blog.module.css";
 
-function Blog(){
+function Blog() {
 
     return (
-        <div> 
+        <div>
             <section className={styles.blogSection}>
 
                 <article className={styles.textBlog}>
-                    <h1 className={styles.titleBlog}>A Evolução do Biquíni na Moda</h1>
-                    <h3 className={styles.subtitleBlog}>Por Clara Soalheiro e Lara Soalheiro --- 11/08/2020</h3>
-                    
-                    
+                    <div className={styles.titlesBlog}>
+                        <h1 className={styles.titleBlog}>A Evolução do Biquíni na Moda</h1>
+                        <h2 className={styles.subtitleBlog}>Por Clara Soalheiro e Lara Soalheiro --- 11/08/2020</h2>
+                    </div>
+
                     <figure>
                         <img src="/images/imagesBlog/louis-bikini.png" alt="Louis designer bikini" />
                     </figure>
@@ -80,7 +81,7 @@ function Blog(){
                         <img src="/images/imagesBlog/colorful-bikini.png" alt="bikinis coloridos 1990" />
                         <img src="/images/imagesBlog/1990-bikini.png" alt="Ano de 1990 fasol bikini" />
                     </figure>
-                    
+
                     <article>
                         <h3>{paragraphsBlog[7].paragraph}</h3>
                     </article>
@@ -112,11 +113,11 @@ function Blog(){
 
                 <article className={styles.bibliografia}>
                     <h3>Bibliografia:</h3>
-                    
+
                     <ul className={styles.bibliografia}>
                         <li>
                             <a href="https://www.taofeminino.com.br/estilo/a-evolucao-do-biquini-s1989423.html#:~:text=A%20evolu%C3%A7%C3%A3o%20dos%20biqu%C3%ADnis%20nos%20%C3%BAltimos%2070%20anos&text=O%20primeiro%20biqu%C3%ADni%20foi%20desenhado,%2C%20claro%2C%20conforto%20das%20pe%C3%A7as.">
-                            A evolução dos biquínis nos últimos 70 anos</a>
+                                A evolução dos biquínis nos últimos 70 anos</a>
                         </li>
                         <li>
                             <a href="https://www.newyou.com/featured/the-evolution-of-the-itsy-bitsy-bikini/">THE EVOLUTION OF THE ITSY BITSY BIKINI</a>
@@ -126,7 +127,7 @@ function Blog(){
                         </li>
                         <li>
                             <a href="https://catracalivre.com.br/cidadania/leila-diniz-jovem-que-contestou-o-machismo-nos-anos-60/">
-                                Leila Diniz, a jovem que contestou o machismo nos anos 60</a> 
+                                Leila Diniz, a jovem que contestou o machismo nos anos 60</a>
                         </li>
                         <li>
                             <a href="https://www.aberbeach.com.br/blog/historia-da-sunga-de-praia/">
@@ -136,9 +137,9 @@ function Blog(){
                             <a href="https://pt.wikipedia.org/wiki/Sunga">Sunga - Wikipédia</a>
                         </li>
                     </ul>
-                    
+
                 </article>
-                
+
             </section>
             <Footer />
         </div>
