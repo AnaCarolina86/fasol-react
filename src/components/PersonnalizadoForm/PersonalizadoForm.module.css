@@ -1,0 +1,65 @@
+.sectionFormInput{
+    display: flex;
+    flex-direction: column;
+    margin: auto 4em;
+}
+
+.sectionFormInput input{
+    padding-left: .75em;
+    border-radius: 10px;
+    border: none;
+    background-color: khaki;
+    margin-top: 1em;
+    line-height: 2;
+    max-width: 15rem;
+}
+
+.sectionFormInput input:focus{
+    outline: khaki;
+    
+}
+
+.sectionFormSubHeader{
+    display: flex;
+    flex-direction: row;
+    margin: auto 4em;
+    gap: 10px;
+    align-content: center;
+}
+
+.sectionFormSubHeader img{
+    max-width: 2.5rem;
+}
+
+.sectionInputsPerson{
+    display: flex;
+    flex-direction: row;
+    margin: 2em 4em;
+}
+
+.sectionInputsPerson img{
+    height: 70vh;
+}
+
+.btn{
+    background-color: khaki;
+    color: #1c577c;
+    font-size: 1.75em;
+    padding: .3rem;
+    border: none;
+    border-radius: 2rem;
+    width: 14rem;
+    position: relative;
+    margin: 1em auto 1.5em 4em;
+}
+
+.btn:hover{
+    background-color: #73bce9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

@@ -10,9 +10,8 @@ function Personalizado() {
             <section className={styles.personSection}>
                 <div className={styles.titlesPerson}>
                     <h2 className={styles.diverseTitlePerson}>Somos diversos! O nosso corpo e gosto é único!</h2>
-                    <h2 className={styles.subtitlePerson}>É pensando nisso que personalizamos a moda praia do seu jeito, com suas medidas, com o modelo que deseja, cor e estampa.<br />
-                    Preencha seus dados abaixo e faça o seu orçamento:
-                    </h2>
+                    <h2 className={styles.subtitlePerson}>É pensando nisso que personalizamos a moda praia do seu jeito, com suas medidas, com o modelo que deseja, cor e estampa.
+                        Preencha seus dados abaixo e faça o seu orçamento: </h2>
                 </div>
 
                 <h1 className={styles.titleFormPerson}>Formulário</h1>
